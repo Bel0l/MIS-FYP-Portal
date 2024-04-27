@@ -1,0 +1,40 @@
+
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+.Tab-header {
+  background-color: #c16a3f;
+}
+
+.Page-header {
+  padding: 0%;
+  margin: 0%;
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.Page-footer {
+  padding: 0%;
+  margin: 0%;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/website_banner.jpg");
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-size:     cover; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  padding-left: 5%;
+  padding-right: 5%;
+  border-top: 4px solid #c16a3f;
+  margin-bottom: 0;
+}
