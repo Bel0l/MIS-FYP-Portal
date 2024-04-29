@@ -63,8 +63,6 @@ import MisStudents from "./views/MIS/Students/MisStudents";
 import MisStudentsManagement from "./views/MIS/Students/MisStudentsManagement";
 import './localStorage'
 import { AuthContext } from "./contexts/AuthContext";
-
-
 import FYP_portal from "./components2/FYP_portal";
 
 if (process.env.REACT_APP_ENV === 'production') {
@@ -89,11 +87,12 @@ class Router extends React.Component {
             <Route path="/" element={<MainLayout />}>
               <Route index element={<MainHome />} />
               <Route path="courses" element={<MainCourses />} />
-
-
               <Route path="faculty" element={<MainFaculty />} />
               <Route path="downloads" element={<MainDownloads />} />
               <Route path="newsAndEvents" element={<MainNewsAndEvents />} />
+              <Route path="/fyp_portal" element={<FYP_portal />} />
+
+
             </Route>
             <Route path="/login" element={<LoginLayout />}>
               <Route index element={<Login />} />
@@ -132,9 +131,6 @@ class Router extends React.Component {
               <Route path="courses" element={<MisCourses />} />
               <Route path="courses/create" element={<MisCoursesCreate />} />
               <Route path="courses/update" element={<MisCoursesUpdate />} />
-
-              <Route path="/FYP_portal" element={<FYP_portal />} />
-
 
               <Route path="thesis" element={<MisThesis />} />
               <Route path="thesis/create" element={<MisThesisCreate />} />

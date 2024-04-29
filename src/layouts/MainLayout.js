@@ -22,7 +22,6 @@ import { Facebook, Instagram, Mail, Phone, Twitter } from "@mui/icons-material";
 import { styled, keyframes } from "@mui/system";
 import { withRouter } from "../withRouter";
 import SocketConnection from "../views/SocketConnection";
-import path from "path";
 
 
 function HeaderAppBar(props) {
@@ -35,19 +34,18 @@ function HeaderAppBar(props) {
   }, {
     label: 'Faculty',
     path: '/faculty'
-  }, {
-    label: 'Downloads',
-    path: '/downloads'
   },
   {
-    label: 'FYP portal',
-    path: '/FYP_portal'
+    label: 'Fyp_portal',
+    path: '/fyp_portal'
   },
-   {
+  {
+    label: 'Downloads',
+    path: '/downloads'
+  }, {
     label: 'News & Events',
     path: '/newsAndEvents'
-  },
-]
+  },]
 
   const location = useLocation()
   const [anchorElNav, setAnchorElNav] = React.useState(null);
