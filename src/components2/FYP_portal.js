@@ -3,6 +3,7 @@ import '../index.css'
 import StudentDashboard from './StudentDashboard'
 const FYP_portal = () => {
   return (
+<<<<<<< Updated upstream
     <div>
       <div className=' top-2 bottom-3   w-full h-16 bg-blue-800 text-white  mt-4 mb-4   '>
         Computer Science & IT (MIS)
@@ -13,6 +14,11 @@ const FYP_portal = () => {
       </div>
       <StudentDashboard/>
     </div>
+=======
+    <>
+
+  </>
+>>>>>>> Stashed changes
   )
 }
 

@@ -9,16 +9,19 @@ const StudentDashboard = () => {
           <ul className='flex'>
             <li className='flex-1 ml-8 mt-2'>My Profile</li>
             <li className='flex-1 mt-2 cursor-pointer '>Create Project</li>
-            <li className='flex-1 mt-2  '>My Project</li>
+            <li className='flex-1 mt-2  '>Project Requests</li>
           </ul>
         </div>
 
         <div className='bg-purple-300 h-10 w-5/3  mt-3 rounded-lg'>
-          <span className='ml-4'>Project Creation Form</span>
+          <span className='ml-4'>Projects Under Me</span>
 
           <div className='table h-5/6 w-4/5'></div>
         </div>
+        
       </div>
+
+      
     </div>
   )
 }
