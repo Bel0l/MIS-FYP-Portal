@@ -64,6 +64,9 @@ import MisStudentsManagement from "./views/MIS/Students/MisStudentsManagement";
 import './localStorage'
 import { AuthContext } from "./contexts/AuthContext";
 import FYP_portal from "./components2/FYP_portal";
+import StudentDashboard from "./components2/StudentDashboard";
+
+// import App from './components2/App'
 
 if (process.env.REACT_APP_ENV === 'production') {
   console.log = () => { }
@@ -91,6 +94,9 @@ class Router extends React.Component {
               <Route path="downloads" element={<MainDownloads />} />
               <Route path="newsAndEvents" element={<MainNewsAndEvents />} />
               <Route path="/fyp_portal" element={<FYP_portal />} />
+              <Route path="/StudentDashboard" element={<StudentDashboard/>} />
+
+
 
 
             </Route>

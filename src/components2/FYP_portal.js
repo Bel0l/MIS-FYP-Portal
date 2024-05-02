@@ -2,6 +2,8 @@ import React from 'react'
 import '../index.css'
 import StudentDashboard from './StudentDashboard'
 import AdminDashboard from './AdminDashboard'
+
+import Login from './Login'
 const FYP_portal = () => {
   return (
     <div>
@@ -14,6 +16,8 @@ const FYP_portal = () => {
       </div>
       <StudentDashboard/>
       <AdminDashboard/>
+      <Login/>
+      {/* <StudentDashboard/> */}
     </div>
   )
 }
