@@ -13,7 +13,7 @@ const FYP_portal = () => {
         <span>Computer Science & IT</span>
       </div>
       <Login/>
-      {/* <StudentDashboard/> */}
+      {/* <StudentDashboard/> */} //commented
     </div>
   )
 }
