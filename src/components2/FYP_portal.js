@@ -1,9 +1,9 @@
 import React from 'react'
 import '../index.css'
 import StudentDashboard from './StudentDashboard'
+import AdminDashboard from './AdminDashboard'
 const FYP_portal = () => {
   return (
-<<<<<<< Updated upstream
     <div>
       <div className=' top-2 bottom-3   w-full h-16 bg-blue-800 text-white  mt-4 mb-4   '>
         Computer Science & IT (MIS)
@@ -13,12 +13,8 @@ const FYP_portal = () => {
         <span>Computer Science & IT</span>
       </div>
       <StudentDashboard/>
+      <AdminDashboard/>
     </div>
-=======
-    <>
-
-  </>
->>>>>>> Stashed changes
   )
 }
 
