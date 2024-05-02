@@ -1,6 +1,7 @@
 import React from 'react'
 import '../index.css'
 import StudentDashboard from './StudentDashboard'
+import Login from './Login'
 const FYP_portal = () => {
   return (
     <div>
@@ -11,7 +12,8 @@ const FYP_portal = () => {
         <span className='font-bold '>Department Name :</span>
         <span>Computer Science & IT</span>
       </div>
-      <StudentDashboard/>
+      <Login/>
+      {/* <StudentDashboard/> */}
     </div>
   )
 }
