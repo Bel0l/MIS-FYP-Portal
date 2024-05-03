@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { redirect, useNavigate } from 'react-router-dom';
 import StudentDashboard from './StudentDashboard';
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -14,7 +14,11 @@ const Login = () => {
             // Redirect user to the desired page
             navigate('/StudentDashboard')
             // history.push('/StudentDashboard'); // Assuming '/dashboard' is the desired page
-        } else {
+        } 
+        else if (username === 'admin' && password === 'admin'){
+            navigate('/AdminDashboard')
+        }
+        else {
             alert('Invalid username or password');
         }
     };

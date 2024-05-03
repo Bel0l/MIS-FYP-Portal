@@ -14,8 +14,8 @@ const FYP_portal = () => {
         <span className='font-bold '>Department Name :</span>
         <span>Computer Science & IT</span>
       </div>
-      <StudentDashboard/>
-      <AdminDashboard/>
+      {/* <StudentDashboard/>
+      <AdminDashboard/> */}
       <Login/>
       {/* <StudentDashboard/> */} 
     </div>

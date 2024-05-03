@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const StudentDashboard = () => {
     return (
@@ -9,7 +10,7 @@ const StudentDashboard = () => {
                     <ul className='flex'>
                         <li className='flex-1 ml-8 mt-2'>My Profile</li>
                         <li className='flex-1 mt-2 cursor-pointer '>Create Project</li>
-                        <li className='flex-1 mt-2  '>My Project</li>
+                        <Link to='/Tasks' className='flex-1 mt-2  '>Tasks</Link>
                     </ul>
                 </div>
 

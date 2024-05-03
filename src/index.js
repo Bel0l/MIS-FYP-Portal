@@ -65,6 +65,11 @@ import './localStorage'
 import { AuthContext } from "./contexts/AuthContext";
 import FYP_portal from "./components2/FYP_portal";
 import StudentDashboard from "./components2/StudentDashboard";
+import AdminDashboard from "./components2/AdminDashboard";
+import ProjectsUnderMe from "./components2/ProjectsUnderMe";
+import Meetings from "./components2/Meetings";
+import CreateTask from "./components2/CreateTask";
+import Tasks from "./components2/Tasks";
 
 // import App from './components2/App'
 
@@ -93,8 +98,27 @@ class Router extends React.Component {
               <Route path="faculty" element={<MainFaculty />} />
               <Route path="downloads" element={<MainDownloads />} />
               <Route path="newsAndEvents" element={<MainNewsAndEvents />} />
-              <Route path="/fyp_portal" element={<FYP_portal />} />
+
+
+
+
+
+
+
+              //components2 
               <Route path="/StudentDashboard" element={<StudentDashboard/>} />
+              <Route path="/fyp_portal" element={<FYP_portal />} />
+              <Route path="/AdminDashboard" element={<AdminDashboard />} />
+              <Route path="/Projects" element={<ProjectsUnderMe />} />
+              <Route path="/Meetings" element={<Meetings/>} />
+              <Route path="/Tasks" element={<Tasks/>} />
+              <Route path="/CreateTask" element={<CreateTask/>} />
+
+
+
+
+
+              
 
 
 

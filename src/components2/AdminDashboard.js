@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function AdminDashboard() {
   return (
@@ -9,7 +10,7 @@ function AdminDashboard() {
           <ul className="flex">
             <li className="flex-1 ml-8 mt-2">My Profile</li>
             <li className="flex-1 mt-2 cursor-pointer ">Project Requests</li>
-            <li className="flex-1 mt-2  ">Projects Under Me</li>
+            <Link to='/Projects' className="flex-1 mt-2  cursor-pointer">Projects Under Me</Link>
           </ul>
         </div>
         {/* SearchBar */}
